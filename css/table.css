@@ -1,0 +1,51 @@
+.book-table {
+    margin: auto;
+    /*margin-right: 50%;*/
+    /*margin: auto;*/
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+
+}
+.book-table th {
+    background: #D66786;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.book-table th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+.book-table th:first-child, td:first-child {
+    text-align: left;
+}
+.book-table th:first-child {
+    border-top-left-radius: 10px;
+}
+.book-table th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+.book-table td {
+    padding: 10px 20px;
+    background: #E3DEDC;
+}
+.book-table tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+.book-table tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+.book-table tr td:last-child {
+    border-right: none;
+}
+.none{
+    display: none;
+}
